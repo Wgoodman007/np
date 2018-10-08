@@ -3,6 +3,7 @@
 #include <vector>
 #include <cassert>
 #include <fstream>
+#include <cstdint>
 
 #include "NPU.hh"
 

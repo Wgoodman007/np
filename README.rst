@@ -16,8 +16,9 @@ Build and test
 
 ::
 
-    clang NPTest.cc -lc++ -o /tmp/NPTest 
-    gcc NPTest.cc -lstdc++ -o /tmp/NPTest 
+    g++ NPTest.cc -std=c++0x -o NPTest
+       ## clang NPTest.cc -lc++ -o /tmp/NPTest 
+       ## gcc NPTest.cc -lstdc++ -o /tmp/NPTest 
        ## build test executable using your compiler, 
        ## implementation is entirely in headers NP.hh and NPU.hh
 

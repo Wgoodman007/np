@@ -20,7 +20,7 @@ int main(int argc, char** argv)
     std::cout << hdr << std::endl ; 
 
   
-    const char* path = "/tmp/a.npy" ; 
+    const char* path = "./tmp/a.npy" ; 
 
     std::ofstream stream(path, std::ios::out|std::ios::binary);
     stream << hdr ; 
@@ -34,7 +34,7 @@ int main(int argc, char** argv)
 
 
     /**
-    np.save("/tmp/b.npy", np.linspace(0,9,10, dtype=np.float32) )
+    np.save("./tmp/b.npy", np.linspace(0,9,10, dtype=np.float32) )
 
     **/
 

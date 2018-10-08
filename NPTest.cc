@@ -24,7 +24,7 @@ NP<float>* make_test_array(int ni, int nj)
 
 int main(int argc, char** argv)
 {
-    const char* path = argc > 1 ? argv[1] : "/tmp/c.npy" ; 
+    const char* path = argc > 1 ? argv[1] : "./tmp/c.npy" ; 
 
     NP<float>* a = make_test_array(10, 4 ); 
     a->save(path) ; 
